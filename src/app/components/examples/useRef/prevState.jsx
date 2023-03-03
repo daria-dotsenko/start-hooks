@@ -5,7 +5,6 @@ import Divider from "../../common/divider";
 const PrevStateExample = () => {
     const prevState = useRef("");
     const [otherState, setOtherState] = useState("false");
-    console.log(otherState);
     const toggleOtherState = () => {
         setOtherState(prevState => prevState === "false" ? "true" : "false");
     };
