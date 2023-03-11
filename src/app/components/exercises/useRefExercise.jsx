@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import CollapseWrapper from "../common/collapse";
 const UseRefExercise = () => {
     const divRef = useRef();
-    const handleClickWigthAndHeight = () => {
+    const handleClickWithAndHeight = () => {
         divRef.current.style.width = "80px";
         divRef.current.style.height = "150px";
         divRef.current.innerHTML = "text";
@@ -25,7 +25,7 @@ const UseRefExercise = () => {
                     width: 60,
                     color: "white"
                 }}
-                onClick={handleClickWigthAndHeight}
+                onClick={handleClickWithAndHeight}
             >
                 <small>Блок</small>
             </div>
